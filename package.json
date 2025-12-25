@@ -1,0 +1,13 @@
+{
+  "name": "meme-launchpad",
+  "version": "1.0.0",
+  "description": "Meme Launchpad project with Hardhat and React",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^5.7.2"
+  }
+}

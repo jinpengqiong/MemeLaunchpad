@@ -1,0 +1,53 @@
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 依赖
+node_modules
+frontend/node_modules
+
+# Hardhat
+artifacts
+cache
+typechain
+typechain-types
+
+# 构建产物
+build
+dist
+frontend/dist
+coverage
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 测试
+coverage
+coverage.json
+.nyc_output
+
+# Hardhat 配置（如果包含敏感信息）
+# hardhat.config.js
+
+# TypeScript
+*.tsbuildinfo
+
+# 临时文件
+.cache
+.temp
+.tmp
